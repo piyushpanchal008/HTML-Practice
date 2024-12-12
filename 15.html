@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>this is practice 
+</title></head>
+<body bgcolor="pink">
+<header>
+<font align="center"><h1>FORM in HTML</h1></font>
+</header>
+<section>
+<form>
+<fieldset><legend><strong> Personal details :-</strong></legend>
+<label for="fname">First Name : </label>
+<input type="text" id="fname" name="first_name" placeholder="Enter Your First Name" required Autofocus><br><br>
+<label for="lname">Last Name : </label>
+<input type="text" id="lname" name="last_name" placeholder="Enter Your Last Name"><br><br>
+<label for="email">E-mail : </label>
+<input type="email" id="email" name="Email" placeholder="Enter Your Email Address" required><br><br>
+<label for="DOB">Date of Birth : </label> 
+<input type="date" id="DOB" name="DOB" min="2005-12-01" required><br><br>
+<label for="course">Choose Your Course : </label>
+<input type="text" list="courses" id="course" required><br><br>
+<Datalist id="courses"><option value="B.TECH"><option value="BCA"><option value="BBA"><option value="B.COM">
+<option value="MBA"></datalist><br><br>
+<label for="tech">Chosse Youir Field : </label>
+<select name="technology" id="tech"><option value="AI">AI</option>
+<option Value="ML">ML</option>
+<option value="IT">IT</option></select><br><br>
+<p><label for="address">Enter Your Address : </label></p>
+<textarea name="address" id="address" rows="4" cols="50">Enter Your Address</textarea><br><br>
+<input type="submit"></fieldset>
+</form>
+</secton>
+</body>
+</html>
